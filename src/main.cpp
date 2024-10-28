@@ -53,8 +53,8 @@ int main(void)
 		std::cout << "Failed to load glad" << std::endl;
 		return -1;
 	}
-    std::cout << "Renderer" << glGetString(GL_RENDERER) << std::endl;
-    std::cout << "OpenGL version" << glGetString(GL_VERSION) << std::endl;
+    std::cout << "Renderer " << glGetString(GL_RENDERER) << std::endl;
+    std::cout << "OpenGL version " << glGetString(GL_VERSION) << std::endl;
 
     glClearColor(0.5, 0.1, 0.1, 1);
    
