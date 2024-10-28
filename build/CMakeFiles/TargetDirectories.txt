@@ -1,3 +1,12 @@
 D:/BattleCity/build/CMakeFiles/BattleCity.dir
+D:/BattleCity/build/CMakeFiles/INSTALL.dir
 D:/BattleCity/build/CMakeFiles/ALL_BUILD.dir
 D:/BattleCity/build/CMakeFiles/ZERO_CHECK.dir
+D:/BattleCity/build/external/glfw/CMakeFiles/uninstall.dir
+D:/BattleCity/build/external/glfw/CMakeFiles/INSTALL.dir
+D:/BattleCity/build/external/glfw/CMakeFiles/ALL_BUILD.dir
+D:/BattleCity/build/external/glfw/src/CMakeFiles/glfw.dir
+D:/BattleCity/build/external/glfw/src/CMakeFiles/update_mappings.dir
+D:/BattleCity/build/external/glfw/src/CMakeFiles/INSTALL.dir
+D:/BattleCity/build/external/glfw/docs/CMakeFiles/docs.dir
+D:/BattleCity/build/external/glfw/docs/CMakeFiles/INSTALL.dir

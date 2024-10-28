@@ -8,6 +8,9 @@
       <FullPath>D:\BattleCity\build\Debug\BattleCity.exe</FullPath>
     </ProjectOutput>
     <ProjectOutput>
+      <FullPath>D:\BattleCity\build\external\glfw\docs\x64\Debug\docs</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
       <FullPath>D:\BattleCity\build\x64\Debug\ALL_BUILD</FullPath>
     </ProjectOutput>
   </ProjectOutputs>

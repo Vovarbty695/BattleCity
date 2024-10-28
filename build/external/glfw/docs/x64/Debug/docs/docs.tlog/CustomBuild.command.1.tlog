@@ -1,0 +1,24 @@
+^D:\BATTLECITY\BUILD\EXTERNAL\GLFW\DOCS\DOXYFILE
+setlocal
+cd D:\BattleCity\build\external\glfw\docs
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\mingw64\bin\doxygen.exe
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\BATTLECITY\EXTERNAL\GLFW\DOCS\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/BattleCity -BD:/BattleCity/build --check-stamp-file D:/BattleCity/build/external/glfw/docs/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
