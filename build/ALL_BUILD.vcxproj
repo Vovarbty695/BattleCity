@@ -187,6 +187,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
+    <ProjectReference Include="D:\BattleCity\build\external\glad\glad.vcxproj">
+      <Project>{FD918236-F9D2-3E1C-AB32-705F20198976}</Project>
+      <Name>glad</Name>
+    </ProjectReference>
     <ProjectReference Include="D:\BattleCity\build\external\glfw\src\glfw.vcxproj">
       <Project>{E2505D45-C101-332C-8FC8-AE33D9CB5D8C}</Project>
       <Name>glfw</Name>

@@ -195,7 +195,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="D:\BattleCity\build\external\glfw\ALL_BUILD.vcxproj">
+    <ProjectReference Include="D:\BattleCity\build\external\glad\ALL_BUILD.vcxproj">
       <Project>{1359EA25-094E-30D2-B3EF-DD0737DA3733}</Project>
       <Name>ALL_BUILD</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
